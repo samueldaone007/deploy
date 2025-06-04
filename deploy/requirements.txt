@@ -2,3 +2,4 @@ numpy
 streamlit
 joblib
 scikit-learn
+base64
