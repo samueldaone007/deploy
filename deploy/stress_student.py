@@ -31,7 +31,7 @@ def set_bg_from_local(image_path):
     unsafe_allow_html=True)
     
 
-model = joblib.load('Student_Stress_Predictor.pkl')
+model = joblib.load('deploy/Student_Stress_Predictor.pkl')
 
 st.markdown('<h1 style="color:#000000;">Student Stress Predictor</h1>',unsafe_allow_html=True)
 st.markdown('<p style="color:#000000; font-weight:bold; font-size:20px">Stress is a cause of many mental health and even other health issues</p>', unsafe_allow_html=True)
