@@ -30,7 +30,7 @@ def set_bg_from_local(image_path):
     """,
     unsafe_allow_html=True)
     
-set_bg_from_local("background.png")
+
 model = joblib.load('Student_Stress_Predictor.pkl')
 
 st.markdown('<h1 style="color:#000000;">Student Stress Predictor</h1>',unsafe_allow_html=True)
